@@ -1,0 +1,4 @@
+1. [H-1][ThunderLoan.sol] - Fee calculation uses a hardcoded 18 decimals. This will cause a descrepancy on tokens with different decimals like USDC.
+2. [H-2][OracleUpgradeable.sol] - Oracle manipulation due to a descrepancy in decimals between different types of erc20 tokens. Attacker can borrow more than actual collateral value.
+3. [H-3][ThunderLoan.sol] - Variable 'tswapAddress' is not declared as a state variable before being used in the initalizer function.
+4. [H-4][ThunderLoan.sol] - Variable 's_currentlyFlashLoaning' is not declared as a state variable. We can not prevent duplicate flashloans like this.

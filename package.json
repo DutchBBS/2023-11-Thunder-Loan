@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@solidity-parser/parser": "^0.16.1",
+    "surya": "^0.4.9"
+  }
+}

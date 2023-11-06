@@ -1,0 +1,44 @@
+Scope:
+src/interfaces/IFlashLoanReceiver.sol
+src/interfaces/IPoolFactory.sol
+src/interfaces/ITSwapPool.sol
+src/interfaces/IThunderLoan.sol
+src/protocol/AssetToken.sol
+src/protocol/OracleUpgradeable.sol
+src/protocol/ThunderLoan.sol
+src/upgradedProtocol/ThunderLoanUpgraded.sol
+
+
+
+1. Flashloans
+2. Stake
+3. Farm
+
+
+Based on Aave and Compound. 
+Look at known vulnerabilties on those protocols
+
+Plans to update main contract so check if they implemted new bugs by accident or broke something in relation to the helper contracts
+
+
+Provide Liquidity:
+Deposit assets
+withdraw assets
+earn interest
+
+Flashloans:
+initate flashloan
+repay flashloan
+revert faulty flashloans
+
+Upgradeability:
+Owner should be able to upgrade certain contracts and implementations
+
+Check if all erc20 tokens are compatible and also check this for non standard erc20 tokens.
+Make sure to check for the right decimals as well
+
+Check how and which oracles are used for asset prices
+
+Also check for bad debts etc
+
+Check if all interfaces are properly managed and initialized

@@ -1,65 +1,3 @@
-//      .edee...      .....       .eeec.   ..eee..
-//    .d*"  """"*e..d*"""""**e..e*""  "*c.d""  ""*e.
-//   z"           "$          $""       *F         **e.
-//  z"             "c        d"          *.           "$.
-// .F                        "            "            'F
-// d                                                   J%
-// 3         .                                        e"
-// 4r       e"              .                        d"
-//  $     .d"     .        .F             z ..zeeeeed"
-//  "*beeeP"      P        d      e.      $**""    "
-//      "*b.     Jbc.     z*%e.. .$**eeeeP"
-//         "*beee* "$$eeed"  ^$$$""    "
-//                  '$$.     .$$$c
-//                   "$$.   e$$*$$c
-//                    "$$..$$P" '$$r
-//                     "$$$$"    "$$.           .d
-//         z.          .$$$"      "$$.        .dP"
-//         ^*e        e$$"         "$$.     .e$"
-//           *b.    .$$P"           "$$.   z$"
-//            "$c  e$$"              "$$.z$*"
-//             ^*e$$P"                "$$$"
-//               *$$                   "$$r
-//               '$$F                 .$$P
-//                $$$                z$$"
-//                4$$               d$$b.
-//                .$$%            .$$*"*$$e.
-//             e$$$*"            z$$"    "*$$e.
-//            4$$"              d$P"        "*$$e.
-//            $P              .d$$$c           "*$$e..
-//           d$"             z$$" *$b.            "*$L
-//          4$"             e$P"   "*$c            ^$$
-//          $"            .d$"       "$$.           ^$r
-//         dP            z$$"         ^*$e.          "b
-//        4$            e$P             "$$           "
-//                     J$F               $$
-//                     $$               .$F
-//                    4$"               $P"
-//                    $"               dP    Gilo94'
-// https://www.asciiart.eu/nature/lightning
-//  ▄▄▄▄▄▄▄▄▄▄▄  ▄         ▄  ▄         ▄  ▄▄        ▄  ▄▄▄▄▄▄▄▄▄▄   ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄
-// ▐░░░░░░░░░░░▌▐░▌       ▐░▌▐░▌       ▐░▌▐░░▌      ▐░▌▐░░░░░░░░░░▌ ▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌
-//  ▀▀▀▀█░█▀▀▀▀ ▐░▌       ▐░▌▐░▌       ▐░▌▐░▌░▌     ▐░▌▐░█▀▀▀▀▀▀▀█░▌▐░█▀▀▀▀▀▀▀▀▀ ▐░█▀▀▀▀▀▀▀█░▌
-//      ▐░▌     ▐░▌       ▐░▌▐░▌       ▐░▌▐░▌▐░▌    ▐░▌▐░▌       ▐░▌▐░▌          ▐░▌       ▐░▌
-//      ▐░▌     ▐░█▄▄▄▄▄▄▄█░▌▐░▌       ▐░▌▐░▌ ▐░▌   ▐░▌▐░▌       ▐░▌▐░█▄▄▄▄▄▄▄▄▄ ▐░█▄▄▄▄▄▄▄█░▌
-//      ▐░▌     ▐░░░░░░░░░░░▌▐░▌       ▐░▌▐░▌  ▐░▌  ▐░▌▐░▌       ▐░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌
-//      ▐░▌     ▐░█▀▀▀▀▀▀▀█░▌▐░▌       ▐░▌▐░▌   ▐░▌ ▐░▌▐░▌       ▐░▌▐░█▀▀▀▀▀▀▀▀▀ ▐░█▀▀▀▀█░█▀▀
-//      ▐░▌     ▐░▌       ▐░▌▐░▌       ▐░▌▐░▌    ▐░▌▐░▌▐░▌       ▐░▌▐░▌          ▐░▌     ▐░▌
-//      ▐░▌     ▐░▌       ▐░▌▐░█▄▄▄▄▄▄▄█░▌▐░▌     ▐░▐░▌▐░█▄▄▄▄▄▄▄█░▌▐░█▄▄▄▄▄▄▄▄▄ ▐░▌      ▐░▌
-//      ▐░▌     ▐░▌       ▐░▌▐░░░░░░░░░░░▌▐░▌      ▐░░▌▐░░░░░░░░░░▌ ▐░░░░░░░░░░░▌▐░▌       ▐░▌
-//       ▀       ▀         ▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀        ▀▀  ▀▀▀▀▀▀▀▀▀▀   ▀▀▀▀▀▀▀▀▀▀▀  ▀         ▀
-//
-//  ▄            ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄        ▄
-// ▐░▌          ▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░▌      ▐░▌
-// ▐░▌          ▐░█▀▀▀▀▀▀▀█░▌▐░█▀▀▀▀▀▀▀█░▌▐░▌░▌     ▐░▌
-// ▐░▌          ▐░▌       ▐░▌▐░▌       ▐░▌▐░▌▐░▌    ▐░▌
-// ▐░▌          ▐░▌       ▐░▌▐░█▄▄▄▄▄▄▄█░▌▐░▌ ▐░▌   ▐░▌
-// ▐░▌          ▐░▌       ▐░▌▐░░░░░░░░░░░▌▐░▌  ▐░▌  ▐░▌
-// ▐░▌          ▐░▌       ▐░▌▐░█▀▀▀▀▀▀▀█░▌▐░▌   ▐░▌ ▐░▌
-// ▐░▌          ▐░▌       ▐░▌▐░▌       ▐░▌▐░▌    ▐░▌▐░▌
-// ▐░█▄▄▄▄▄▄▄▄▄ ▐░█▄▄▄▄▄▄▄█░▌▐░▌       ▐░▌▐░▌     ▐░▐░▌
-// ▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░▌       ▐░▌▐░▌      ▐░░▌
-//  ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀         ▀  ▀        ▀▀
 // SPDX-License-Identifier: AGPL-3.0-only
 pragma solidity 0.8.20;
 
@@ -87,20 +25,16 @@ contract ThunderLoan is Initializable, OwnableUpgradeable, UUPSUpgradeable, Orac
     using SafeERC20 for IERC20;
     using Address for address;
 
-    /*//////////////////////////////////////////////////////////////
-                            STATE VARIABLES
-    //////////////////////////////////////////////////////////////*/
+
     mapping(IERC20 => AssetToken) public s_tokenToAssetToken;
 
     // The fee in WEI, it should have 18 decimals. Each flash loan takes a flat fee of the token price.
     uint256 private s_feePrecision;
     uint256 private s_flashLoanFee; // 0.3% ETH fee
 
-    mapping(IERC20 token => bool currentlyFlashLoaning) private s_currentlyFlashLoaning;
+    //mapping(IERC20 token => bool currentlyFlashLoaning) private s_currentlyFlashLoaning;
 
-    /*//////////////////////////////////////////////////////////////
-                                 EVENTS
-    //////////////////////////////////////////////////////////////*/
+
     event Deposit(address indexed account, IERC20 indexed token, uint256 amount);
     event AllowedTokenSet(IERC20 indexed token, AssetToken indexed asset, bool allowed);
     event Redeemed(
@@ -108,9 +42,7 @@ contract ThunderLoan is Initializable, OwnableUpgradeable, UUPSUpgradeable, Orac
     );
     event FlashLoan(address indexed receiverAddress, IERC20 indexed token, uint256 amount, uint256 fee, bytes params);
 
-    /*//////////////////////////////////////////////////////////////
-                               MODIFIERS
-    //////////////////////////////////////////////////////////////*/
+
     modifier revertIfZero(uint256 amount) {
         if (amount == 0) {
             revert ThunderLoan__CantBeZero();
@@ -125,23 +57,17 @@ contract ThunderLoan is Initializable, OwnableUpgradeable, UUPSUpgradeable, Orac
         _;
     }
 
-    /*//////////////////////////////////////////////////////////////
-                               FUNCTIONS
-    //////////////////////////////////////////////////////////////*/
+
     /// @custom:oz-upgrades-unsafe-allow constructor
-    constructor() {
+    constructor() { // @audit Check if this function '_disableInitializers' is correct otherwise the initializers will be called on deployment
         _disableInitializers();
     }
-
-    /*//////////////////////////////////////////////////////////////
-                           EXTERNAL FUNCTIONS
-    //////////////////////////////////////////////////////////////*/
-    function initialize(address tswapAddress) external initializer {
+    function initialize(address tswapAddress) external initializer { // @audit-issue [H-3] Variable 'tswapAddress' is not declared anywhere
         __Ownable_init();
         __UUPSUpgradeable_init();
-        __Oracle_init(tswapAddress);
-        s_feePrecision = 1e18;
-        s_flashLoanFee = 3e15; // 0.3% ETH fee
+        __Oracle_init(tswapAddress); // tswapaddress = poolfactory address
+        s_feePrecision = 1e18; // @audit-issue [H-1] Decimals should not be hardcoded since some tokens are using different decimals instead of the hardcoded 18
+        s_flashLoanFee = 3e15; // 0.3% ETH fee 
     }
 
     function deposit(IERC20 token, uint256 amount) external revertIfZero(amount) revertIfNotAllowedToken(token) {
@@ -235,7 +161,7 @@ contract ThunderLoan is Initializable, OwnableUpgradeable, UUPSUpgradeable, Orac
             s_tokenToAssetToken[token] = assetToken;
             emit AllowedTokenSet(token, assetToken, allowed);
             return assetToken;
-        } else {
+        } else { 
             AssetToken assetToken = s_tokenToAssetToken[token];
             delete s_tokenToAssetToken[token];
             emit AllowedTokenSet(token, assetToken, allowed);
@@ -257,25 +183,25 @@ contract ThunderLoan is Initializable, OwnableUpgradeable, UUPSUpgradeable, Orac
         s_flashLoanFee = newFee;
     }
 
-    function isAllowedToken(IERC20 token) public view returns (bool) {
+    function isAllowedToken(IERC20 token) public view returns (bool) { // @audit-ok
         return address(s_tokenToAssetToken[token]) != address(0);
     }
 
-    function getAssetFromToken(IERC20 token) public view returns (AssetToken) {
+    function getAssetFromToken(IERC20 token) public view returns (AssetToken) { // @audit-ok
         return s_tokenToAssetToken[token];
     }
 
-    function isCurrentlyFlashLoaning(IERC20 token) public view returns (bool) {
+    function isCurrentlyFlashLoaning(IERC20 token) public view returns (bool) { // @audit-issue [H-4] variabel 's_currentlyFlashLoaning' is not declared anywhere so this logic is useless
         return s_currentlyFlashLoaning[token];
     }
 
-    function getFee() external view returns (uint256) {
+    function getFee() external view returns (uint256) { // @audit-ok
         return s_flashLoanFee;
     }
 
-    function getFeePrecision() external view returns (uint256) {
+    function getFeePrecision() external view returns (uint256) { // @audit-ok
         return s_feePrecision;
     }
 
-    function _authorizeUpgrade(address newImplementation) internal override onlyOwner { }
+    function _authorizeUpgrade(address newImplementation) internal override onlyOwner { } // @audit do we need custom logic here or not in our usecase?
 }

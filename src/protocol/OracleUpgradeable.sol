@@ -16,8 +16,7 @@ contract OracleUpgradeable is Initializable {
         s_poolFactory = poolFactoryAddress;
     }
 
-    function getPriceInWeth(address token) public view returns (uint256) {
-        address swapPoolOfToken = IPoolFactory(s_poolFactory).getPool(token);
+    function getPriceInWeth(address token) public view returns (uint256) { // @audit-issue [H-2] The attacker's contract uses the decimal discrepancy to mislead the LendingProtocol about the value of the collateral, allowing the attacker to borrow more funds than the collateral supports.
         return ITSwapPool(swapPoolOfToken).getPriceOfOnePoolTokenInWeth();
     }
 
